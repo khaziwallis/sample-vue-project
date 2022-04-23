@@ -15,5 +15,12 @@ yarn serve
 yarn build
 ```
 
+
+## build and run over serve
+````
+yarn build
+yarn global add serve
+serve -s dist
+```
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
